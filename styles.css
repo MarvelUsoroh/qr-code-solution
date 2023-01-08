@@ -1,28 +1,12 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    margin-top: 100px;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 body {
     background-color: hsl(212, 45%, 89%);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
 }
-.parent {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
-    margin: 50px auto auto auto;
-    width: 250px;
-    height: 400px;
-}
-.qr-code {
-    border-radius: 10px;
-    margin-top: 10px;
-    width: 90%;
-}
+
 h1 {
     color: hsl(218, 44%, 22%);
     font-family: 'Outfit', sans-serif;
@@ -31,10 +15,38 @@ h1 {
     width: 90%;
     margin: 20px auto 10px;
 }
+
 p {
     color: hsl(220, 15%, 55%);
     font-family: Outfit, sans-serif;
-    font-size: 0.75rem;
-    width: 80%;
+    font-size: 0.8rem;
+    line-height: 1.3;
     margin: 0 auto 0;
+    width: 85%;
+}
+
+.main {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+    width: 260px;
+    height: 400px;
+    padding-top: 10px;
+}
+
+.qr-code {
+    border-radius: 10px;
+    margin: ;
+    width: 90%;
+}
+
+
+.footer { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.footer a { 
+    color: hsl(228, 45%, 44%); 
 }
